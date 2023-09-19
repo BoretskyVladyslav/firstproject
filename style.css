@@ -1,0 +1,255 @@
+header {
+    height: 100%;
+    width: 100%;
+    background-color: #ECECEC;
+    border: 1px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 215px;
+    padding-right: 30px;
+    height: 100%;
+}
+
+.logo img {
+    width: 145px;
+    height: 31px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    color: blue;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    margin-top: 30px;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1078px;
+    margin-top: auto;
+}
+
+/* Банер (Banner) */
+.header-banner {
+    background-color: #ECECEC;
+    position: relative;
+    top: 80px;
+}
+
+.banner-button {
+    top: 430px;
+    left: 692px;
+    border-radius: 4px;
+    background-color: #0077FF;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.banner-text {
+    top: 280px;
+    left: 452px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Особливості (Features) */
+
+.feature {
+    display: inline;
+    background-color: #fff;
+    width: 100%;
+    height: 98px;
+    left: 215px;
+    top: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+    margin-right: 20px;
+    width: 1170px
+}
+
+
+/* Команда (Team) */
+.work {
+    height: 100%;
+    width: 100%;
+    background-color: #ECECEC;
+    position: relative;
+    top: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+
+.banner {
+    background: #2F303A;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .title {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+h1 {
+        margin: 0 0 30px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    border-radius: 4px;
+}
+.banner h1 {
+    max-width: 700px;
+    margin: 0 auto 30px; 
+}
+.button {
+    color: #fff;
+    background: #2196F3;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    padding: 10px 32px;
+
+}
+
+.team h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.team-member {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Наша команда 2 (Team 2) */
+.team-2 {
+    height: auto;
+    background-color: #F5F4FA;
+    position: relative;
+    top: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.team-2 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.team-member-2 {
+    display: inline-block;
+}
+
+.image-frame {
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-frame img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.member-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.member-details p {
+    font-size: 16px;
+        background-color: #F5F4FA;
+}
+footer {
+    width: 100%;
+    height: 252px;
+    background-color: #ECECEC;
+    top: 2094px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 215px;
+    height: 100%;
+}
+
+.text {
+    width: 231px;
+    height: 81px;
+    top: 2205px;
+    left: 215px;
+    
+}
+
+.text p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo img {
+    width: 145px;
+    height: 31px;
+    top: 2154px;
+    left: 215px;
+
+}

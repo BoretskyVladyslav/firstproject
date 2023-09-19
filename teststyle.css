@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Задайте колір фону за вашим вибором */
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-row {
+    align-items: top;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Максимальна ширина ряду */
+    margin: 0 auto; /* Це робить ряд центрально вирівняним на сторінці */
+}
+
+.image-row img {
+    width: calc(14.2857% - 10px); /* Розрахунок ширини для 14 зображень в ряду зі зазначеним відступом */
+    margin-bottom: 10px; /* Відступ між картинками (за вашим вибором) */
+}
